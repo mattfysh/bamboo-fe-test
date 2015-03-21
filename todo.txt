@@ -16,6 +16,7 @@ using the files array gives you control over order
 	this lets you insert an init.spec.js for shimming
 	init.spec.js must be preprocessed by browserify to resolve the 'packagenames' like 'jquery'
 prevent double build/runs with karma-browserify by not watching the spec files through karma
+added bzip2 to CI remote agent, for extracting phantomjs
 
 
 LATERDO
