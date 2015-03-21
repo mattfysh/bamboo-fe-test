@@ -1,0 +1,26 @@
+TODO
+
+bamboo report
+	results
+	coverage
+how to include has/nocover.js in report?
+review other coverage reports (e.g. travis, coveralls)
+historical coverage results
+
+
+NOTES:
+
+downgrade to karma-coverage@0.2.6 to prevent "split" error: https://github.com/karma-runner/karma-coverage/issues/123
+frameworks not always necessary, you can just use the files array directly for the smaller ones like karma-chai
+using the files array gives you control over order
+	this lets you insert an init.spec.js for shimming
+	init.spec.js must be preprocessed by browserify to resolve the 'packagenames' like 'jquery'
+prevent double build/runs with karma-browserify by not watching the spec files through karma
+
+
+LATERDO
+
+run tests in
+	IE
+	SauceLabs
+	node.js (jsdom?)
