@@ -16,9 +16,6 @@
     "mocha": "^2.2.1",
     "stringify": "^3.1.0"
   },
-  "devDependencies": {
-    "karma-mocha": "^0.1.10"
-  },
   "scripts": {
     "test": "./node_modules/karma/bin/karma start --single-run"
   }

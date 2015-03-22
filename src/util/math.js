@@ -3,8 +3,8 @@ exports.add = function(a, b) {
 };
 
 exports.multiply = function(a, b) {
-	// intential error
-	return a - b;
+	// toggle between * and - to force error
+	return a * b;
 };
 
 exports.subtract = function(a, b) {

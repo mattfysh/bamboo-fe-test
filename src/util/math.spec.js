@@ -11,7 +11,6 @@ describe('math', function() {
 		it('multiplies', function() {
 			var r = math.multiply(5, 2);
 			expect(r).to.equal(10);
-		});	
+		});
 	})
-	
 });
