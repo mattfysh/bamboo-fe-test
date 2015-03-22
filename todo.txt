@@ -1,7 +1,3 @@
-TODO
-
-better mocha.json reporting for accurate title's and fullTitle's
-
 NOTES:
 
 * downgrade to karma-coverage@0.2.6 to prevent "split" error: https://github.com/karma-runner/karma-coverage/issues/123
@@ -14,9 +10,10 @@ NOTES:
 * use `test || true` in bamboo to ignore non-0 exit code when test fails. mocha.json will report the failed tests, and the build will fail that way
 * karma-mocha is where window.__coverage__ is added as `coverage` to the onBrowserComplete result
 * temporary package published: https://www.npmjs.com/package/karma-coverage-allsources
+* changing strings for describe() and it() will cause loss of historical results
+* published karma-bamboo-reporter2, changing mocha.json output style
 
-
-LATERDO
+LATERDO:
 
 review other coverage reports (e.g. travis, coveralls)
 historical coverage results
