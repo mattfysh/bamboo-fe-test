@@ -9,6 +9,7 @@
     "karma-browserify": "^4.0.0",
     "karma-chrome-launcher": "^0.1.7",
     "karma-coverage": "0.2.6",
+    "karma-coverage-allsources": "0.0.1",
     "karma-mocha": "^0.1.10",
     "karma-phantomjs-launcher": "^0.1.4",
     "karma-tamtam-bamboo-reporter": "^1.0.1",

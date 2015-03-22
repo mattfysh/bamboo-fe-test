@@ -1,8 +1,6 @@
 TODO
 
-bamboo report coverage
-how to include has/nocover.js in report?
-
+better mocha.json reporting for accurate title's and fullTitle's
 
 NOTES:
 
@@ -14,6 +12,8 @@ NOTES:
 * prevent double build/runs with karma-browserify by not watching the spec files through karma (use pattern object in files array)
 * added bzip2 to CI remote agent, for extracting phantomjs
 * use `test || true` in bamboo to ignore non-0 exit code when test fails. mocha.json will report the failed tests, and the build will fail that way
+* karma-mocha is where window.__coverage__ is added as `coverage` to the onBrowserComplete result
+* temporary package published: https://www.npmjs.com/package/karma-coverage-allsources
 
 
 LATERDO
