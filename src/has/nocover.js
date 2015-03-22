@@ -6,6 +6,6 @@ module.exports = function() {
 	console.log('foo');
 };
 
-exports.otherfn = function() {
+module.exports.otherfn = function() {
 	console.log('abc');
 };

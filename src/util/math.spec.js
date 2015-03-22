@@ -10,4 +10,9 @@ describe('math', function() {
 		var r = math.multiply(5, 2);
 		expect(r).to.equal(10);
 	});
+
+	it('subtracts', function() {
+		var r = math.subtract(5, 2);
+		expect(r).to.equal(3);
+	})
 });
